@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "cross-env NODE_ENV=local NUXT_ENV_STAGE=local nuxt",
+    "dev": "NODE_ENV=local NUXT_ENV_STAGE=local nuxt",
     "build": "nuxt build",
     "generate": "nuxt generate",
-    "start:local": "cross-env NODE_ENV=local NUXT_ENV_STAGE=local node ./server.js",
+    "start:local": "NODE_ENV=local NUXT_ENV_STAGE=local node ./server.js",
     "start:production": "pm2-runtime start ./server.js"
   },
   "dependencies": {
