@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "NODE_ENV=local NUXT_ENV_STAGE=local nuxt",
+    "mdev": "NODE_ENV=local NUXT_ENV_STAGE=local nuxt",
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider NODE_ENV=local NUXT_ENV_STAGE=local nuxt",
     "build": "nuxt build",
     "generate": "nuxt generate",
     "start:local": "NODE_ENV=local NUXT_ENV_STAGE=local node ./server.js",
@@ -41,6 +42,8 @@
     "@babel/eslint-parser": "^7.5.4",
     "@nuxtjs/eslint-config": "^8.0.0",
     "@nuxtjs/eslint-module": "^3.0.2",
+    "@nuxtjs/gtm": "^2.4.0",
+    "@zadigetvoltaire/nuxt-gtm": "^0.0.13",
     "eslint": "^8.4.1",
     "eslint-loader": "^3.0.4",
     "eslint-plugin-nuxt": "^3.1.0",

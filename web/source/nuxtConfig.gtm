@@ -1,0 +1,13 @@
+export default defineNuxtConfig({
+  gtm: {
+    id: 'GTM-NQ7F7J55',
+    defer: false,
+    compatibility: false,
+    enabled: true,
+    debug: true,
+    loadScript: true,
+    enableRouterSync: true, 
+    trackOnNextTick: false,
+    devtools: true
+  }
+})
