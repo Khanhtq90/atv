@@ -206,18 +206,14 @@ module.exports = {
     enabled: true,
     layer: 'dataLayer',
     variables: {},
-
     pageTracking: false,
     pageViewEventName: 'nuxtRoute',
-
     autoInit: true,
     respectDoNotTrack: true,
-
     scriptId: 'gtm-script',
     scriptDefer: false,
     scriptURL: 'https://www.googletagmanager.com/gtm.js',
     crossOrigin: false,
-
     noscript: true,
     noscriptId: 'gtm-noscript',
     noscriptURL: 'https://www.googletagmanager.com/ns.html?id=GTM-5TC2N222'
